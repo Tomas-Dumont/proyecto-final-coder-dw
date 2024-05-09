@@ -1,0 +1,109 @@
+.card-products {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+
+    .product-card {
+        max-width: 350px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        padding: 20px 30px 20px 20px;
+        overflow: hidden;
+        margin: 20px;
+
+        .logo-cart {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo-product {
+                height: 100px;
+                width: 100px;
+                object-fit: cover;
+            }
+
+            li {
+                a {
+                    img {
+                        height: 40px;
+                        width: 30px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .main-images {
+            position: relative;
+            height: 210px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            img {
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+            }
+        }
+        .product-detail {
+            font-size: 24px;
+            font-weight: 500;
+            color: black;
+            text-align: center;
+            p{
+                font-size: 12px;
+                font-weight: 400;
+                color: #333;
+                text-align: center;
+            }
+            .stars-price {
+                display: flex;
+                flex-direction: column;
+                .price-num {
+                    font-size: 18px;
+                    padding: 20px;
+                }
+            }
+            .stars{
+                ion-icon {
+                    margin-left: 0 -1px;
+                    color: #333;
+                }
+            }
+        }
+        .button {
+            position: relative;
+            height: 50px;
+            width: 100%;
+            background: rgb(208, 44, 44);
+            border-radius: 25px;
+            margin-top: 30px;
+            button {
+                position: relative;
+                height: 100%;
+                width: 100%;
+                background: none;
+                outline: none;
+                border: none;
+                font-size: 18px;
+                font-weight: 600;
+                color: #fff;
+            }
+            button:hover{
+                    background-color: $color-sec;
+                    border-radius: 25px;
+            }
+        }
+
+
+    }
+}

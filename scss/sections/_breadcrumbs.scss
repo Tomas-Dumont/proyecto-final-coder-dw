@@ -1,0 +1,17 @@
+.breadcrumbs{
+    padding: 10px;
+    ul{
+        display: flex;
+        img{
+            width: 21px;
+        }
+        svg{
+            width: 30px;
+        }
+        li{
+            a{
+                color: black;
+            }
+        }
+    }
+}

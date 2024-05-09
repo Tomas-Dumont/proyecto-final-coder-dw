@@ -1,0 +1,30 @@
+.header {
+    .header-content {
+        text-align: center;
+
+        h1 {
+            font-size: 75px;
+            line-height: 80px;
+            color: black;
+            text-transform: uppercase;
+            margin-bottom: 35px;
+        }
+    }
+
+    .header-content {
+        ul {
+            li {
+                a {
+                    display: inline-block;
+                    padding: 11px 35px;
+                    color: white;
+                    background-color: rgb(208, 44, 44);
+                    border-radius: 5%;
+                }
+                a:hover{
+                    background-color: $color-sec;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.search-container{
+    .search-box {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 300px;
+        max-width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+    }
+    .search-button {
+        color: black;
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
