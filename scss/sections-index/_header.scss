@@ -9,3 +9,10 @@
     justify-content: center;
 }
 
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px) {
+    .header{
+        min-height: 35vh;
+    }
+}

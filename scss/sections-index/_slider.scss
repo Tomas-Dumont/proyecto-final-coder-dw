@@ -46,3 +46,21 @@
     }
 
 }
+
+//Mobile L//
+@media (max-width:425px){
+    .slider{
+        .slide-track{
+            animation: scroll 60s;
+        }
+        .slide{
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            p{
+                margin: 5px;
+            }
+        }
+    }
+}

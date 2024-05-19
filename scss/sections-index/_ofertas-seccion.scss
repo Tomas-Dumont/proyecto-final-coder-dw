@@ -63,12 +63,13 @@
                 font-weight: 400;
                 color: #333;
                 text-align: center;
+                padding: 8px;
             }
             .stars-price {
                 display: flex;
                 flex-direction: column;
                 .price-num {
-                    font-size: 18px;
+                    font-size: 23px;
                     padding: 20px;
                 }
             }
