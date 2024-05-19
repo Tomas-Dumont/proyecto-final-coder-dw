@@ -189,7 +189,7 @@
     .grid .products .img-3 {
       display: none; }
     .grid .products .text-2 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/resources/imagen-fondo-grid-texto.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/imagen-fondo-grid-texto.jpg);
       background-position: center bottom;
       background-repeat: no-repeat;
       background-size: cover; }
