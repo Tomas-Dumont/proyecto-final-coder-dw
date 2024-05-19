@@ -3,18 +3,15 @@
 @import "./utilities/color";
 @import "./utilities/reset";
 
-@import "./sections/barra-busqueda";
-@import "./sections/footer";
-@import "./sections/grid-main";
-@import "./sections/header-content";
-@import "./sections/header";
-@import "./sections/menu-navegacion";
-@import "./sections/navbar";
-@import "./sections/ofertas-seccion";
-@import "./sections/slider";
-@import "./sections/header-ofertas";
-@import "./sections/breadcrumbs";
-@import "./sections/header-productos";
-@import "./sections/main-productos";
-@import "./sections/nosotros";
-@import "./sections/form-cuenta";
+@import "./sections-index/barra-busqueda";
+@import "./sections-index/footer";
+@import "./sections-index/grid-main";
+@import "./sections-index/header-content";
+@import "./sections-index/header";
+@import "./sections-index/menu-navegacion";
+@import "./sections-index/navbar";
+@import "./sections-index/ofertas-seccion";
+@import "./sections-index/slider";
+@import "./sections-index/breadcrumbs";
+
+

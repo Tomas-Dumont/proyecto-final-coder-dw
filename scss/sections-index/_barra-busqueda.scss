@@ -1,0 +1,74 @@
+.search-container {
+    margin: 0 20px 0 20px;
+    .search-box {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 300px;
+        max-width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+    }
+
+    .search-button {
+        color: black;
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
+
+
+//-------------------- RESPONSIVE --------------------//
+//Laptop//
+@media (max-width: 1025px) {
+    .search-container {
+        .search-box {
+            width: 150px;
+            padding: 5px;
+        }
+        .search-button {
+            padding: 5px;
+        }
+    }
+
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Tablet//
+@media (max-width: 768px) {
+    .search-container {
+        .search-box {
+            padding: 6px;
+            width: 137px;
+        }
+        .search-button {
+            padding: 6px;
+        }
+    }
+
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px){
+    .search-container {
+        margin-top: 10px;
+        .search-box {
+            width: 250px;
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile M//
+@media (max-width:375px){
+    .search-container {
+        margin-top: 10px;
+        .search-box {
+            width: 240px;
+        }
+    }
+}
