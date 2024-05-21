@@ -48,7 +48,7 @@
             ul {
                 li {
                     a {
-                        padding: 10px;
+                        padding: 6px;
                         font-size: 12px;
                     }
                 }
@@ -79,13 +79,13 @@
 
 //-------------------- RESPONSIVE --------------------//
 //Mobile M//
-@media (max-width:375px){
+@media (max-width:391px){
     .header {
         .navbar {
             ul {
                 li {
                     a {
-                        padding: 5px;
+                        padding: 4px;
                         font-size: 11px;
                     }
                 }
@@ -93,5 +93,22 @@
         }
     }
 }
+
+//Mobile S//
+@media (max-width:321px){
+    .header {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 
 

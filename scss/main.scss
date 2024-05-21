@@ -3,6 +3,7 @@
 @import "./utilities/color";
 @import "./utilities/reset";
 
+//--------------- INDEX ---------------//
 @import "./sections-index/barra-busqueda";
 @import "./sections-index/footer";
 @import "./sections-index/grid-main";
@@ -13,5 +14,12 @@
 @import "./sections-index/ofertas-seccion";
 @import "./sections-index/slider";
 @import "./sections-index/breadcrumbs";
+
+//--------------- OFERTAS ---------------//
+@import "./sections-ofertas/header-ofertas";
+@import "./sections-ofertas/menu-nav-ofertas";
+@import "./sections-ofertas/navbar-ofertas";
+@import "./sections-ofertas/offers-seccion-ofertas";
+@import "./sections-ofertas/h2-card-products";
 
 

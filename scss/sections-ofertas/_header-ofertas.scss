@@ -1,0 +1,18 @@
+.header-ofertas {
+    background-image: url(../resources/banner-ofertas.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px) {
+    .header-ofertas{
+        min-height: 35vh;
+        background-image: url(../resources/fondo-mobile.png);
+    }
+}

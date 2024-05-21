@@ -28,7 +28,7 @@ body {
 
 /* Header */
 .header {
-    background-image: url(../resources/background-header.jpg);
+    background-image: url(../resources/imagen-mobile.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,7 +423,7 @@ body {
 
 /* -------------------- OFERTAS -------------------- */
 .header-ofertas {
-    background-image: url(../resources/header-ofertas-background.jpg);
+    background-image: url(../resources/banner-ofertas.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
