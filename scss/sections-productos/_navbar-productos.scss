@@ -1,0 +1,112 @@
+.header-productos{
+    .navbar {
+        ul {
+            li {
+                position: relative;
+                float: left;
+
+                a {
+                    font-size: 18px;
+                    padding: 20px;
+                    color: black;
+                    display: block;
+                    font-weight: 600;
+                }
+
+                a:hover {
+                    color: $color-sec;
+                }
+            }
+
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Laptop//
+@media (max-width: 1025px) {
+    .header-productos {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        padding: 15px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Tablet//
+@media (max-width: 768px) {
+    .header-productos {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        padding: 6px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px){
+    .header-productos {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        margin-top: 10px;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        padding: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile M//
+@media (max-width:391px){
+    .header-productos {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        padding: 4px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile S//
+@media (max-width:321px){
+    .header-productos {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+

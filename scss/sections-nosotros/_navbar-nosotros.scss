@@ -1,0 +1,24 @@
+.header-nos{
+    .navbar {
+        ul {
+            li {
+                position: relative;
+                float: left;
+
+                a {
+                    font-size: 18px;
+                    padding: 20px;
+                    color: black;
+                    display: block;
+                    font-weight: 600;
+                }
+
+                a:hover {
+                    color: $color-sec;
+                }
+            }
+
+        }
+    }
+}
+

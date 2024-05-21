@@ -1,0 +1,18 @@
+.header-productos {
+    background-image: url(../resources/background-products.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px) {
+    .header-productos{
+        min-height: 35vh;
+        background-image: url(../resources/background-products.png);
+    }
+}

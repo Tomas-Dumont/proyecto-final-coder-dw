@@ -1,0 +1,45 @@
+.header-productos{
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .logo {
+            color: black;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Tablet//
+@media (max-width:768px){
+    .header-productos{
+        .menu{
+            margin: 15px;
+        }
+        .logo{
+            margin-right: 12px;
+            font-size: 15px;
+        }
+    }
+}
+
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px){
+    .header-productos{
+        .menu {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}

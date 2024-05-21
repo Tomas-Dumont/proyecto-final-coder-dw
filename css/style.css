@@ -307,8 +307,8 @@
 
 @media (max-width: 391px) {
   .header .navbar ul li a {
-    padding: 4px;
-    font-size: 11px; } }
+    padding: 3px;
+    font-size: 10px; } }
 
 @media (max-width: 321px) {
   .header .navbar ul li a {
@@ -626,3 +626,129 @@
     font-size: 24px;
     margin-top: 18px;
     margin-bottom: 18px; } }
+
+.header-productos {
+  background-image: url(../resources/background-products.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  align-items: center; }
+
+@media (max-width: 425px) {
+  .header-productos {
+    min-height: 35vh;
+    background-image: url(../resources/background-products.png); } }
+
+.header-productos .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header-productos .menu .logo {
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800; }
+
+@media (max-width: 768px) {
+  .header-productos .menu {
+    margin: 15px; }
+  .header-productos .logo {
+    margin-right: 12px;
+    font-size: 15px; } }
+
+@media (max-width: 425px) {
+  .header-productos .menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
+.header-productos .navbar ul li {
+  position: relative;
+  float: left; }
+  .header-productos .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600; }
+  .header-productos .navbar ul li a:hover {
+    color: #ef3535; }
+
+@media (max-width: 1025px) {
+  .header-productos .navbar ul li a {
+    padding: 15px;
+    font-size: 14px; } }
+
+@media (max-width: 768px) {
+  .header-productos .navbar ul li a {
+    padding: 6px;
+    font-size: 12px; } }
+
+@media (max-width: 425px) {
+  .header-productos .navbar ul li a {
+    margin-top: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px; } }
+
+@media (max-width: 391px) {
+  .header-productos .navbar ul li a {
+    padding: 4px;
+    font-size: 12px; } }
+
+@media (max-width: 321px) {
+  .header-productos .navbar ul li a {
+    font-size: 10px; } }
+
+.header-nos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px; }
+
+@media (max-width: 425px) {
+  .header-nos {
+    min-height: 35vh;
+    background-image: url(../resources/fondo-mobile.png); } }
+
+.header-nos .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header-nos .menu .logo {
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800; }
+
+.header-nos .navbar ul li {
+  position: relative;
+  float: left; }
+  .header-nos .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600; }
+  .header-nos .navbar ul li a:hover {
+    color: #ef3535; }
+
+.page {
+  background-image: url(../resources/tienda-ejemplo.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.main-nosotros .map {
+  display: flex;
+  justify-content: center; }
