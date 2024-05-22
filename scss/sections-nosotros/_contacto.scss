@@ -1,0 +1,51 @@
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    .info-contacto{
+        margin-right: 20px;
+        border: solid black;
+        padding: 20px;
+        .contact{
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+        .icon-1{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            img{
+                width: 30px;
+            }
+            p{
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+        .icon-2{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            img{
+                width: 30px;
+            }
+            p{
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+        .icon-3{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;    
+            img{
+                width: 30px;
+            }
+            p{
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+    }
+
+}

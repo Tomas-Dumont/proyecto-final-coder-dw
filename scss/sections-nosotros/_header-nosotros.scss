@@ -1,7 +1,12 @@
 .header-nos {
     display: flex;
     align-items: center;
-    margin-bottom: 70px;
+    background-image: url(../resources/banner-ofertas.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+
 }
 
 //-------------------- RESPONSIVE --------------------//

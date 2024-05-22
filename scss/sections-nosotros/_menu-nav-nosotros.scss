@@ -16,3 +16,31 @@
         }
     }
 }
+
+//-------------------- RESPONSIVE --------------------//
+//Tablet//
+@media (max-width:768px){
+    .header-nos{
+        .menu{
+            margin: 15px;
+        }
+        .logo{
+            margin-right: 12px;
+            font-size: 15px;
+        }
+    }
+}
+
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px){
+    .header-nos{
+        .menu {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}
+
