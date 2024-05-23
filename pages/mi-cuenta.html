@@ -12,61 +12,59 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="menu container">
-            <a class="logo" href="./index.html">Fraf Copies</a>
-            <div class="search-container">
-                <input type="text" class="search-box" placeholder="Buscar...">
-                <button type="submit" id="search-button">Buscar</button>
+    <div class="back">
+        <header class="header-mi-cuenta">
+            <div class="menu container">
+                <a class="logo" href="./index.html">Fraf Copies</a>
+                <div class="search-container">
+                    <input type="text" class="search-box" placeholder="Buscar...">
+                    <button type="submit" class="search-button">Buscar</button>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./ofertas.html">Ofertas</a></li>
+                        <li><a href="./productos.html">Productos</a></li>
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./mi-cuenta.html">Mi Cuenta</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./ofertas.html">Ofertas</a></li>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./mi-cuenta.html">Mi Cuenta</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section class="breadcrumbs">
+        </header>
+        <section class="breadcrumbs-mi-cuenta">
             <ul>
                 <li>
                     <a href="../index.html">
                         Inicio
                     </a>
                 </li>
-
-                <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></li>
+    
+                <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#5f6368">
+                        <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+                    </svg></li>
                 <li>
-                    <a href="./productos.html">Mi Cuenta</a>
+                    <a href="./productos.html">Mi cuenta</a>
                 </li>
             </ul>
         </section>
-        <section class="formulario">
-            <form class="form">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Recordar mi contraseña</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Crear Cuenta</button>
-              </form>
+        <section class="form-register">
+            <h4>Registro</h4>
+            <form action="#" method="get" class="form">
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+            </form>
+            <div>
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            </div>
+            <input class="botons" type="submit" value="Registrar">
+            <p>
+                <a href="#">¿Ya tengo cuenta?</a>
+            </p>
         </section>
-    </main>
     <!-- Footer -->
-
     <footer class="footer">
         <ul class="social-icon">
             <li class="icon-elem">
@@ -82,31 +80,14 @@
                 <a href="#" class="icon"><ion-icon name="mail"></ion-icon></a>
             </li>
         </ul>
-        <ul class="menu-footer">
-            <li class="menu-elem">
-                <a href="#" class="menu-icon">Inicio</a>
-            </li>
-            <li class="menu-elem">
-                <a href="#" class="menu-icon">Productos</a>
-            </li>
-            <li class="menu-elem">
-                <a href="#" class="menu-icon">Nosotros</a>
-            </li>
-            <li class="menu-elem">
-                <a href="#" class="menu-icon">Mi Cuenta</a>
-            </li>
-            <li class="menu-elem">
-                <a href="#" class="menu-icon">Contacto</a>
-            </li>
-        </ul>
         <p class="text">@2024|Todos Los Derechos Reservados</p>
     </footer>
 
+    </div>
+        
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
-   
+</body>
 </body>
 
 
 </html>
-

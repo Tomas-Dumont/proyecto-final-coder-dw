@@ -719,7 +719,7 @@
 @media (max-width: 425px) {
   .header-nos {
     min-height: 35vh;
-    background-image: url(../resources/fondo-mobile.png); } }
+    background-image: url(../resources/background-nosotros-mobile.png); } }
 
 .header-nos .menu {
   position: absolute;
@@ -849,3 +849,164 @@
     flex-direction: column-reverse; }
     .contacto .info-contacto {
       margin: 0%; } }
+
+.header-mi-cuenta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px; }
+
+.header-mi-cuenta .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header-mi-cuenta .menu .logo {
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none; }
+
+@media (max-width: 768px) {
+  .header-mi-cuenta .menu {
+    margin: 15px; }
+  .header-mi-cuenta .logo {
+    margin-right: 12px;
+    font-size: 15px; } }
+
+@media (max-width: 425px) {
+  .header-mi-cuenta .menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
+.header-mi-cuenta .navbar ul li {
+  position: relative;
+  float: left; }
+  .header-mi-cuenta .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600;
+    text-decoration: none; }
+  .header-mi-cuenta .navbar ul li a:hover {
+    color: #ef3535; }
+
+@media (max-width: 1025px) {
+  .header-mi-cuenta .navbar ul li a {
+    padding: 15px;
+    font-size: 14px; } }
+
+@media (max-width: 768px) {
+  .header-mi-cuenta .navbar ul li a {
+    padding: 6px;
+    font-size: 12px; } }
+
+@media (max-width: 425px) {
+  .header-mi-cuenta .navbar ul li a {
+    margin-top: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px; } }
+
+@media (max-width: 391px) {
+  .header-mi-cuenta .navbar ul li a {
+    padding: 2px;
+    font-size: 10px; } }
+
+@media (max-width: 321px) {
+  .header-mi-cuenta .navbar ul li a {
+    font-size: 10px; } }
+
+.form-register {
+  width: 400px;
+  background: #d02c2c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  box-shadow: 7px 13px 37px #000; }
+  .form-register h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .form-register .form .controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri', sans-serif;
+    font-size: 18px; }
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px; }
+  .form-register a {
+    color: white; }
+  .form-register a:hover {
+    text-decoration: underline; }
+  .form-register .botons {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 4px;
+    background: white;
+    text-transform: uppercase; }
+  .form-register .botons:hover {
+    cursor: pointer;
+    box-shadow: 1px 4px 5px #414141; }
+
+@media (max-width: 425px) {
+  .form-register {
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+    .form-register .form .controls {
+      padding: 5px;
+      font-size: 12px; }
+    .form-register p {
+      font-size: 12px; }
+    .form-register .botons {
+      padding: 9px;
+      font-size: 14px; } }
+
+@media (max-width: 320px) {
+  .form-register {
+    width: 250px;
+    padding: 20px; }
+    .form-register p {
+      font-size: 9px; }
+    .form-register .botons {
+      padding: 7px;
+      font-size: 12px; } }
+
+.back {
+  background: red;
+  background: linear-gradient(0deg, red 0%, #eb0d0d 0%, white 100%); }
+
+.breadcrumbs-mi-cuenta {
+  padding: 10px; }
+  .breadcrumbs-mi-cuenta ul {
+    display: flex; }
+    .breadcrumbs-mi-cuenta ul img {
+      width: 21px; }
+    .breadcrumbs-mi-cuenta ul svg {
+      width: 30px; }
+    .breadcrumbs-mi-cuenta ul li a {
+      color: black; }
+
+@media (max-width: 425px) {
+  .breadcrumbs-mi-cuenta {
+    margin-top: 150px; } }

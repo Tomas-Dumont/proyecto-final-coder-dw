@@ -1,0 +1,113 @@
+.header-mi-cuenta{
+    .navbar {
+        ul {
+            li {
+                position: relative;
+                float: left;
+
+                a {
+                    font-size: 18px;
+                    padding: 20px;
+                    color: black;
+                    display: block;
+                    font-weight: 600;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: $color-sec;
+                }
+            }
+
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Laptop//
+@media (max-width: 1025px) {
+    .header-mi-cuenta {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        padding: 15px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Tablet//
+@media (max-width: 768px) {
+    .header-mi-cuenta {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        padding: 6px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px){
+    .header-mi-cuenta {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        margin-top: 10px;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        padding: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile M//
+@media (max-width:391px){
+    .header-mi-cuenta {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile S//
+@media (max-width:321px){
+    .header-mi-cuenta {
+        .navbar {
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+

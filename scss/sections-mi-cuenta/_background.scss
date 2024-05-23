@@ -1,0 +1,30 @@
+.back {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(235, 13, 13, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.breadcrumbs-mi-cuenta{
+    padding: 10px;
+    ul{
+        display: flex;
+        img{
+            width: 21px;
+        }
+        svg{
+            width: 30px;
+        }
+        li{
+            a{
+                color: black;
+            }
+        }
+    }
+}
+
+//-------------------- RESPONSIVE --------------------//
+//Mobile L//
+@media (max-width:425px) {
+    .breadcrumbs-mi-cuenta{
+        margin-top: 150px;
+    }
+}
