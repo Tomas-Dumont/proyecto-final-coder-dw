@@ -307,7 +307,7 @@
 
 @media (max-width: 391px) {
   .header .navbar ul li a {
-    padding: 3px;
+    padding: 2px;
     font-size: 10px; } }
 
 @media (max-width: 321px) {
@@ -523,8 +523,8 @@
 
 @media (max-width: 391px) {
   .header-ofertas .navbar ul li a {
-    padding: 4px;
-    font-size: 12px; } }
+    padding: 2px;
+    font-size: 10px; } }
 
 @media (max-width: 321px) {
   .header-ofertas .navbar ul li a {
@@ -700,8 +700,8 @@
 
 @media (max-width: 391px) {
   .header-productos .navbar ul li a {
-    padding: 4px;
-    font-size: 12px; } }
+    padding: 2px;
+    font-size: 10px; } }
 
 @media (max-width: 321px) {
   .header-productos .navbar ul li a {
@@ -710,7 +710,7 @@
 .header-nos {
   display: flex;
   align-items: center;
-  background-image: url(../resources/banner-ofertas.png);
+  background-image: url(../resources/backgound-nosotros.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -780,8 +780,8 @@
 
 @media (max-width: 391px) {
   .header-nos .navbar ul li a {
-    padding: 4px;
-    font-size: 12px; } }
+    padding: 2px;
+    font-size: 10px; } }
 
 @media (max-width: 321px) {
   .header-nos .navbar ul li a {
@@ -790,7 +790,7 @@
 .contacto {
   display: flex;
   justify-content: center;
-  margin: 20px; }
+  margin: 20px 10px 30px 10px; }
   .contacto .info-contacto {
     margin-right: 20px;
     border: solid black;
@@ -825,3 +825,27 @@
       .contacto .info-contacto .icon-3 p {
         font-weight: 500;
         margin-left: 5px; }
+
+@media (max-width: 425px) {
+  .contacto .info-contacto .contact {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .contacto .info-contacto .icon-1 img {
+    width: 20px; }
+  .contacto .info-contacto .icon-1 p {
+    font-size: 10px; }
+  .contacto .info-contacto .icon-2 img {
+    width: 20px; }
+  .contacto .info-contacto .icon-2 p {
+    font-size: 10px; }
+  .contacto .info-contacto .icon-3 img {
+    width: 20px; }
+  .contacto .info-contacto .icon-3 p {
+    font-size: 10px; } }
+
+@media (max-width: 391px) {
+  .contacto {
+    display: flex;
+    flex-direction: column-reverse; }
+    .contacto .info-contacto {
+      margin: 0%; } }

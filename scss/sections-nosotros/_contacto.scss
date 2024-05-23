@@ -1,7 +1,7 @@
 .contacto{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 10px 30px 10px;
     .info-contacto{
         margin-right: 20px;
         border: solid black;
@@ -49,3 +49,55 @@
     }
 
 }
+
+//--------------- RESPONSIVE --------------- //
+// Mobile L //
+@media (max-width:425px){
+    .contacto{
+        .info-contacto{
+            .contact{
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+            .icon-1{
+                img{
+                    width: 20px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .icon-2{
+                img{
+                    width: 20px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .icon-3{
+                img{
+                    width: 20px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+
+        }
+        
+    }
+}
+
+//--------------- RESPONSIVE --------------- //
+// Mobile M //
+@media (max-width:391px){
+    .contacto{
+        display: flex;
+        flex-direction: column-reverse;
+        .info-contacto{
+            margin: 0%;
+        }
+    }
+}
+
